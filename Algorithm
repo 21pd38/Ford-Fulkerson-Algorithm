@@ -1,0 +1,11 @@
+/* Ford Fulkerson Algorithm:
+
+    // 0. Initialize an adjacency matrix to represent our graph.
+    // 1. Create the residual graph. (Same as the original graph.)
+    // 2. Create an default parent vector for BFS to store the augmenting path.
+    // 3. Keep calling BFS to check for an augmenting path (from the source to the sink...
+    // 4. Find the max flow through the path we found.
+    // 5. Update the residual capacities of the edges and reverse edges.
+    // 6. Add this path's flow to our total max flow so far.
+
+*/
